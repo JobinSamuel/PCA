@@ -10,7 +10,8 @@ from sklearn.preprocessing import scale
 
 from scipy.cluster.hierarchy import linkage #TO GET A DENDROGRAM WE USE THESE FUNCTIONS
 import scipy.cluster.hierarchy as sch 
-###Question -1
+
+
 wi = pd.read_csv("/Users/jobinsamuel/Desktop/Assignments/PCA/Datasets_PCA/wine.csv")#read data
 wi.describe() #Summary of data
 
